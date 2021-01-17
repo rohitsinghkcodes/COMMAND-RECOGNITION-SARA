@@ -120,7 +120,7 @@ if __name__ == "__main__":
 
         elif 'email to rohit' in query:
             try:
-                speak('Give me the instruction Sir!')
+                speak('Sir, Give me the instructions for the email!')
                 content = takeCommand()
                 to = 'mailsrohitk@gmail.com'
                 sendEmail(to, content)
@@ -131,7 +131,7 @@ if __name__ == "__main__":
 
         elif 'email to shivam' in query:
             try:
-                speak('Give me the instruction Sir!')
+                speak('Sir, Give me the instructions for the email!')
                 content = takeCommand()
                 to = 'shivamguglani306@gmail.com'
                 sendEmail(to, content)
